@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "nortus"
+    }
+  },
+  "defaultProject": "nortus",
+  "cli": {
+    "analytics": false
+  }
 }

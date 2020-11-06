@@ -1,0 +1,110 @@
+/*
+|--------------------------------------------------------------------------
+|  Custom Styles
+|  
+|--------------------------------------------------------------------------
+|
+| 
+|
+*/
+
+
+/* If you want to add your own CSS code, please do it in this file */
+
+
+/*
+@media only screen and (max-width: 767px) 
+{
+	.no-margin-h .one-fourth.column{ width: 50% !important;clear:none; }		
+	.one-fourth.column{ width: 50% !important;clear:none;  }		
+}*/
+
+html {
+    scroll-behavior: smooth
+}
+
+.header-transparent #Top_bar .top_bar_right {
+    top: -30px;
+}
+
+.is-sticky a.action_button {
+    top: 35px;
+}
+
+#about .elementor-button,
+#seo .elementor-button,
+#contact #submit {
+    background-color: #e4861f;
+}
+
+#about .elementor-button:hover,
+#seo .elementor-button:hover,
+#contact #submit:hover {
+    background-color: #c1721a;
+}
+
+.current,
+#slider-1-slide-1-layer-0 {
+    color: #e4861f !important;
+}
+
+#slider-1-slide-1-layer-1 {
+    color: #707378 !important;
+}
+
+#about .elementor-text-editor span,
+#about .elementor-icon-list-icon i,
+#seo .elementor-text-editor span,
+#number .elementor-text-editor span,
+#contact .elementor-text-editor span {
+    color: #e4861f;
+}
+
+#about .elementor-text-editor h2,
+#about .elementor-icon-list-text,
+#number .elementor-text-editor h2,
+#number .elementor-element .elementor-element-3a2dc6c p {
+    color: #707378;
+}
+
+#seo .elementor-text-editor h2,
+#seo .elementor-widget-wrap .elementor-text-editor p,
+#contact .elementor-text-editor h2 {
+    color: #FFF;
+}
+
+.elementor-element.elementor-element-d14897a:not(.elementor-motion-effects-element-type-background),
+.elementor-element.elementor-element-d14897a>.elementor-motion-effects-container>.elementor-motion-effects-layer,
+.elementor-9 .elementor-element.elementor-element-039fd3f:not(.elementor-motion-effects-element-type-background),
+.elementor-9 .elementor-element.elementor-element-039fd3f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("../images/agency4-home-offer-bg.jpg");
+    padding: 100px 0px 100px 0px;
+}
+
+.elementor-9 .elementor-element.elementor-element-0c3dfc5 {
+    padding: 100px 0px 100px 0px;
+}
+
+.elementor-element.elementor-element-9ba03ca .elementor-text-editor,
+.elementor-element.elementor-element-de56dc8 .elementor-text-editor {
+    text-align: center;
+}
+
+.elementor-element.elementor-element-de56dc8,
+#contactform .error {
+    color: #FFF;
+}
+
+@media only screen and (max-width: 767px) {
+    .caroufredsel_wrapper {
+        width: 90% !important;
+        margin: auto !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .caroufredsel_wrapper ul.offer_ul li,
+    .caroufredsel_wrapper ul.offer_ul {
+        width: 100% !important;
+    }
+}
