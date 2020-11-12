@@ -3,7 +3,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
 	{path: '', redirectTo: 'home', pathMatch: 'full'},
-    { path: 'home', loadChildren: './home/home.module#HomeModule' }
+    { path: 'home', loadChildren: './home/home.module#HomeModule' },
+    { path: 'sobre', loadChildren: './about/about.module#AboutModule' }
     /*{ path: 'error/404', component: NotFoundComponent },
     { path: '**', redirectTo: 'error/404' }*/
 	];

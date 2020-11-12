@@ -33,13 +33,15 @@ html {
 
 #about .elementor-button,
 #seo .elementor-button,
-#contact #submit {
+#contact #submit,
+a.action_button {
     background-color: #e4861f;
 }
 
 #about .elementor-button:hover,
 #seo .elementor-button:hover,
-#contact #submit:hover {
+#contact #submit:hover,
+a.action_button:hover {
     background-color: #c1721a;
 }
 
@@ -56,14 +58,19 @@ html {
 #about .elementor-icon-list-icon i,
 #seo .elementor-text-editor span,
 #number .elementor-text-editor span,
-#contact .elementor-text-editor span {
+#contact .elementor-text-editor span,
+.elementor-element-98ed2fa .elementor-text-editor span,
+.elementor-element.elementor-element-98b5ff4 .elementor-icon-list-icon i,
+.elementor-element-28e4b29 .elementor-text-editor span {
     color: #e4861f;
 }
 
 #about .elementor-text-editor h2,
 #about .elementor-icon-list-text,
 #number .elementor-text-editor h2,
-#number .elementor-element .elementor-element-3a2dc6c p {
+#number .elementor-element .elementor-element-3a2dc6c p,
+.elementor-element-98ed2fa .elementor-text-editor h2,
+.elementor-element-28e4b29 .elementor-text-editor h2 {
     color: #707378;
 }
 
@@ -93,6 +100,20 @@ html {
 .elementor-element.elementor-element-de56dc8,
 #contactform .error {
     color: #FFF;
+}
+
+.elementor-element.elementor-element-d898140>.elementor-container>.elementor-row>.elementor-column>.elementor-column-wrap>.elementor-widget-wrap,
+.elementor-element.elementor-element-d9a9640>.elementor-container>.elementor-row>.elementor-column>.elementor-column-wrap>.elementor-widget-wrap {
+    align-content: start;
+}
+
+.elementor-element.elementor-element-28e4b29 .elementor-text-editor {
+    text-align: right;
+}
+
+.elementor-element.elementor-element-33fcb66 {
+    left: 100%;
+    transform: translateX(-100%);
 }
 
 @media only screen and (max-width: 767px) {
